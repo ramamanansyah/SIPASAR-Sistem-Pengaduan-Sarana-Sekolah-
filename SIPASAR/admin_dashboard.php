@@ -700,9 +700,6 @@ $siswa_result = $conn->query($siswa_query);
         <!-- Auto-refresh Status -->
         <div class="refresh-controls">
             <span id="last-refresh" class="last-update">Terakhir diperbarui: <?php echo date('d M Y, H:i'); ?></span>
-            <div class="refresh-actions">
-                <a href="#filter-section" class="btn btn-export btn-small">Ekspor</a>
-            </div>
         </div>
         
         <!-- Notification Container -->
